@@ -1,0 +1,26 @@
+{
+  "name": "vegetable-bot",
+  "version": "1.0.0",
+  "description": "This is a sample LINE chatbot who can handle sushi delivery order.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/makotoomori/vegetable_bot.git"
+  },
+  "author": "Makoto Omori",
+  "license": "Unlicense",
+  "homepage": "https://github.com/makotoomori/vegetable_bot#readme",
+  "dependencies": {
+    "@line/bot-sdk": "^6.0.1",
+    "bluebird": "^3.5.2",
+    "bot-express": "^0.4.8",
+    "contentful": "^7.0.3",
+    "debug": "^3.1.0",
+    "dialogflow": "^0.3.0",
+    "express": "^4.16.3"
+  }
+}
