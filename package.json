@@ -16,11 +16,15 @@
   "homepage": "https://github.com/makotoomori/vegetable_bot#readme",
   "dependencies": {
     "@line/bot-sdk": "^6.0.1",
+    "airtable": "^0.5.6",
     "bluebird": "^3.5.2",
-    "bot-express": "^0.4.8",
+    "bot-express": "^0.5.8",
     "contentful": "^7.0.3",
+    "cryptiles": "^4.1.2",
     "debug": "^3.1.0",
     "dialogflow": "^0.3.0",
+    "date-utils": "^1.2.21",
+    "nanoid": "^1.2.3",
     "express": "^4.16.3"
   }
 }
